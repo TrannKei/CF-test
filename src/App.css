@@ -1,0 +1,90 @@
+.container{
+  margin: 100px auto 0;
+  width: 40vw;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.input-tag{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-left: 40px;
+  padding-bottom: 40px;
+}
+.button-click{
+  background-color: #dddddd;
+  margin: 0 20px;
+  width: 10%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button-click:hover{
+  cursor: pointer;
+  background-color: #1d2035;
+  color: #dddddd;
+}
+.title{
+  margin-left: 40px;
+  padding-top: 40px;
+}
+.on-target{
+  cursor: pointer;
+  background-color: #1d2035;
+  color: #dddddd;
+  margin: 0 20px;
+  width: 10%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.output{
+  text-align: center;
+  width: 40vw;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border-radius: 20px;
+
+}
+.linkto{
+  color: black;
+  /* font-size: 24px; */
+  /* text-decoration: none; */
+  color: green;
+}
+.icon > svg{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.icon-container :nth-child(1) > svg{
+  background-color: #3d548e;
+
+}
+.icon-container :nth-child(2) > svg{
+  background: rgb(244,184,72);
+background: linear-gradient(0deg, rgba(244,184,72,1) 0%, rgba(205,53,91,1) 60%, rgba(60,61,229,1) 100%);
+
+}
+.icon-container :nth-child(3) > svg{
+  background-color: lightblue;
+
+}
+.icon-container :nth-child(4) > svg{
+  background-color: lightgreen;
+
+}
+.with-20{
+  width: 20%;
+}
